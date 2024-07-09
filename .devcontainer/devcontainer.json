@@ -17,7 +17,9 @@
                 "ecmel.vscode-html-css",
                 "kisstkondoros.vscode-gutter-preview",
                 "bradlc.vscode-tailwindcss",
-                "naumovs.color-highlight"
+                "naumovs.color-highlight",
+                "redhat.vscode-yaml",
+                "Codeium.codeium"
             ],
             "settings": {}
         }
