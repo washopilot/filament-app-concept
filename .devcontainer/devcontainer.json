@@ -1,0 +1,42 @@
+// https://aka.ms/devcontainer.json
+{
+    "name": "Existing Docker Compose (Extend)",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "laravel.app",
+    "workspaceFolder": "/var/www/html",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "onecentlin.laravel-extension-pack",
+                "DEVSENSE.phptools-vscode",
+                "yy0931.vscode-sqlite3-editor",
+                "esbenp.prettier-vscode",
+                "VisualStudioExptTeam.vscodeintellicode",
+                "donjayamanne.githistory",
+                "austenc.laravel-blade-spacer",
+                "ecmel.vscode-html-css",
+                "kisstkondoros.vscode-gutter-preview",
+                "bradlc.vscode-tailwindcss",
+                "naumovs.color-highlight"
+            ],
+            "settings": {}
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "installZsh": true,
+            "configureZshAsDefaultShell": true,
+            "installOhMyZsh": true,
+            "installOhMyZshConfig": true,
+            "upgradePackages": true,
+            "username": "automatic",
+            "userUid": "automatic",
+            "userGid": "automatic"
+        }
+    },
+    "remoteUser": "sail",
+    "postCreateCommand": "chown -R 1000:1000 /var/www/html 2>/dev/null || true"
+    // "forwardPorts": [],
+    // "runServices": [],
+    // "shutdownAction": "none",
+}
