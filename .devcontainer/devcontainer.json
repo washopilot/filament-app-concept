@@ -28,7 +28,7 @@
             "configureZshAsDefaultShell": true,
             "installOhMyZsh": true,
             "installOhMyZshConfig": true,
-            "upgradePackages": true,
+            "upgradePackages": false,
             "username": "automatic",
             "userUid": "automatic",
             "userGid": "automatic"
