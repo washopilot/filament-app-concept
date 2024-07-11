@@ -18,8 +18,7 @@
                 "kisstkondoros.vscode-gutter-preview",
                 "bradlc.vscode-tailwindcss",
                 "naumovs.color-highlight",
-                "redhat.vscode-yaml",
-                "Codeium.codeium"
+                "redhat.vscode-yaml"
             ],
             "settings": {}
         }
